@@ -1,0 +1,96 @@
+
+body {
+    background: rgba(180, 189, 184, 0.6);
+    
+}
+
+.hr-line {
+    margin: 0 25% 0 25%;
+	padding: 0;
+	height: 10px;
+	border: none;
+	border-top: 1px solid #333;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    width: 50%
+
+}
+.section-profile-title {
+    text-align: center;
+}
+
+.header {
+    display: block;
+background: rgba(164, 182, 198, 0.6);
+border-radius: 5px;
+height: 50px;
+max-width: 900;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+ 
+
+}
+.nav-item {
+    display: inline-block;
+
+}
+.nav-link {
+    color: beige;
+ text-decoration: none;
+ margin: 10px;
+
+
+}
+
+.section-profile-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+ border-radius: 50%; 
+    box-shadow: 0 1px 4px rgb(0 0 0 / 60%); 
+    filter: grayscale(0.3) brightness(1.05);
+    transition:.3s;
+}
+
+.progect-link{
+    text-decoration: none;
+    font-size: x-large;
+    color: rgba(39, 72, 100, 0.88);
+}
+
+.footer {
+    display: block;
+    background: rgba(164, 182, 198, 0.6);
+    border-radius: 5px;
+    height: 90px;
+    max-width: 900;
+   
+}
+
+.footer-content {
+    display: flex;
+    justify-content:left ;
+    padding-left: 10%;
+  padding-top: 10px;
+   
+}
+    .rs-school-logo{
+    display: block;
+    padding: 10px ;
+  position: absolute;
+  right: 20px;
+  height: 60px ;
+  width: 110px; 
+}
+.footer-year{
+    padding-left: 40px;
+    padding-top: 30px;
+    color: beige;
+    text-decoration: none;
+    margin: 10px;
+}
