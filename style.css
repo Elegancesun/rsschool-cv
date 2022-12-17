@@ -1,7 +1,26 @@
 
+html {
+    scroll-behavior: smooth; 
+  }
 body {
     background: rgba(180, 189, 184, 0.6);
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+.main {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .hr-line {
@@ -43,8 +62,7 @@ max-width: 900;
     color: beige;
  text-decoration: none;
  margin: 10px;
-
-
+ transition: .3s;
 }
 
 .section-profile-logo {
@@ -72,7 +90,7 @@ max-width: 900;
    
 }
 
-.footer-content {
+.footer-container {
     display: flex;
     justify-content:left ;
     padding-left: 10%;
