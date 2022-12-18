@@ -9,9 +9,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
     
 }
-
+a {
+    text-decoration: none;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -59,11 +62,12 @@ max-width: 900;
 
 }
 .nav-link {
-    color: beige;
+    color: white;
  text-decoration: none;
  margin: 10px;
  transition: .3s;
 }
+
 
 .section-profile-logo {
     width: 200px;
@@ -108,7 +112,8 @@ max-width: 900;
 .footer-year{
     padding-left: 40px;
     padding-top: 30px;
-    color: beige;
+    color: white;
     text-decoration: none;
     margin: 10px;
 }
+
